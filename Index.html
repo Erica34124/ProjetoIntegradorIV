@@ -5,20 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Integrador IV</title>
 </head>
 
 <body>
     <nav>
-      <ul>
-          <li class="ticket">Ticket Management</li>
-          <li class="home">Home</li>
-          <li>Sobre nós</li>
-      </ul>
+        <ul>
+            <li class="ticket">Ticket Management</li>
+            <li class="home">Home</li>
+            <li>Sobre nós</li>
+        </ul>
     </nav>
     <header>
         <h1>Haytec</h1>
+        <form class="row g-3">
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 3</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </form>
     </header>
     <!-- <div class="container">
         <section>
